@@ -125,8 +125,8 @@ def StringPolynomFromDict(dict1:dict)->str:
     if string[:3]==' + ':
         string=string[3:]
     return string
-string1:str='2x^2 + 4x + 5 = 0'
-string2:str='5x^3 - 3*x^2 - 12 = 0'
+string1:str= str('2x^2 + 4x + 5 = 0')
+string2:str=str('5x^3 - 3*x^2 - 12 = 0')
 print(string1)
 print(string2)
 dict1:dict=PolynomialToDict(string1)
